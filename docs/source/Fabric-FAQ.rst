@@ -85,7 +85,7 @@ Application-side Programming Model
 :Question:
   How do I query the ledger data?
 
-:Answer:
+:Answer: 
   Within chaincode you can query based on keys. Keys can be queried by range,
   and composite keys can be modeled to enable equivalence queries against
   multiple parameters. For example a composite key of (owner,asset_id) can be
